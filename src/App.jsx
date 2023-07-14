@@ -1,9 +1,9 @@
 import learningTime from './assets/learning-time.svg';
 import learningTime2 from './assets/learning-time-2.svg'
 import standingHuman from './assets/standing.svg'
-// import image1 from './assets/azure-logo.png';
-// import image2 from './assets/aws-logo.png';
-// import image3 from './assets/google-logo.png';
+import image1 from './assets/azure-logo.png';
+import image2 from './assets/aws-logo.png';
+import image3 from './assets/google-logo.png';
 
 
 
@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="main">
-        <div className="logo">Dynamic academy</div>
+        <div className="logo">Dynamiq academy</div>
         <div className="hero">
           <p className="hero-header">The Elite diverse tech talent pipeline. Solved</p>
           <div className="box">
@@ -153,14 +153,18 @@ export default function App() {
           </div>
         </section>
 
-        {/* <div className="global-brands">
-          <p className="header">Trusted by thousands of top global brands</p>
-          <div className="logos">
+
+        <section className='tech-recruiter-section'>
+          <div className="header">
+            <p className="header">Trusted by thousands of top global brands</p>
+          </div>
+
+          <div className="tech-recruiter">
             <img className="image" alt="Image" src={image1} />
             <img className="image" alt="Image" src={image2} />
             <img className="image" alt="Image" src={image3} />
           </div>
-        </div> */}
+        </section>
 
         <div className="footer">
           <p>Copyright © 2023 Dynamic Academy org. All rights reserved.</p>
